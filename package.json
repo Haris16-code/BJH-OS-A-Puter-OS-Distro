@@ -19,7 +19,7 @@
     "dev": "next dev",
     "next-build": "next build",
     "next-start": "next start",
-    "vercel-build": "git submodule update --init --recursive && node ./tools/run-selfhosted.mjs"
+    "vercel-build": "node ./tools/run-selfhosted.mjs"
   },
   "workspaces": [
     "src/*",
